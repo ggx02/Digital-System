@@ -1,3 +1,3 @@
 # Auto detect text files and perform LF normalization
 *.c linguist-detectable=false
-*.Verilog linguist-detectable=false
+*.verilog linguist-detectable=false
