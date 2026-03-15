@@ -1,6 +1,6 @@
 SISTEMA DIGITALE PER LA CONVOLUZIONE D'IMMAGINE.
 
-&#x20;Si progetta un convolutore isotropico per il filtraggio di immagini in scala di grigio (quindi con pixel 8 bit unsigned) di dimensione almeno 32x32. Il convolutore utilizza un kernel 3x3 con coefficienti rappresentati in complemento a 2 su 8 bit.
+&#x20;Si progetta un convolutore isotropico per il filtraggio di immagini in scala di grigio (con pixel 8 bit unsigned) di dimensione almeno 32x32. Il convolutore utilizza un kernel 3x3 con coefficienti rappresentati in complemento a 2 su 8 bit.
 
 
 
