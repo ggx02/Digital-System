@@ -1,0 +1,9 @@
++====================+===================+=====================================+
+| Launch Setup Clock | Launch Hold Clock | Pin                                 |
++====================+===================+=====================================+
+| clk                | clk               | Conv/Adder_Tree_Final/RD1_reg[19]/D |
+| clk                | clk               | Conv/Adder_Tree_Final/sum_reg[11]/D |
+| clk                | clk               | Conv/Adder_Tree_Final/sum_reg[18]/D |
+| clk                | clk               | Conv/Adder_Tree_Final/sum_reg[15]/D |
+| clk                | clk               | Conv/Adder_Tree_Final/sum_reg[14]/D |
++--------------------+-------------------+-------------------------------------+

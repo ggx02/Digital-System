@@ -1,0 +1,21 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sim_1/imports/new/TB_TOP.vhd,1739456116,vhdl,,,,tb_top,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/new/convolutore.vhd,1738589499,vhdl,,,,convolutore,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/AdderTree4.vhd,1738407232,vhdl,,,,adder_tree_4,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/AdderTree4Signed.vhd,1738406667,vhdl,,,,adder_tree_4_signed,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/Booth.vhd,1738406576,vhdl,,,,booth,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/BufferLine.vhd,1738682891,vhdl,,,,bufferline,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/FA.vhd,1738406255,vhdl,,,,fa,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/Moltiplicatore.vhd,1739382973,vhdl,,,,moltiplicatore,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/Mux5.vhd,1738406521,vhdl,,,,mux_5,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/PartialSum.vhd,1738406454,vhdl,,,,partial_sum,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/RCA.vhd,1738407182,vhdl,,,,rca,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/RCA_Signed.vhd,1738406354,vhdl,,,,rca_signed,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/Project_Designs/ShiftReg3.vhd,1738407300,vhdl,,,,shift_register,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Project_Designs/AdderTreeFinal.vhd,1738406913,vhdl,,,,adder_tree_3,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/new/FSM.vhd,1738685577,vhdl,,,,fsm,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/new/Top.vhd,1738682888,vhdl,,,,top,,,,,,,,
+C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sources_1/imports/sources_1/new/new_counter.vhd,1739382973,vhdl,,,,new_counter,,,,,,,,

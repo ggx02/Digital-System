@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.sim/sim_1/impl/timing/xsim/TB_Top_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_Tree_3
+INFO: [VRFC 10-311] analyzing module Adder_Tree_4
+INFO: [VRFC 10-311] analyzing module Adder_Tree_4_0
+INFO: [VRFC 10-311] analyzing module Adder_Tree_4_Signed
+INFO: [VRFC 10-311] analyzing module Adder_Tree_4_Signed_3
+INFO: [VRFC 10-311] analyzing module Adder_Tree_4_Signed_4
+INFO: [VRFC 10-311] analyzing module BufferLine
+INFO: [VRFC 10-311] analyzing module Convolutore
+INFO: [VRFC 10-311] analyzing module FSM
+INFO: [VRFC 10-311] analyzing module Moltiplicatore
+INFO: [VRFC 10-311] analyzing module Moltiplicatore_1
+INFO: [VRFC 10-311] analyzing module Moltiplicatore_2
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-311] analyzing module new_counter
+INFO: [VRFC 10-311] analyzing module shift_register
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/sim_1/imports/new/TB_TOP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TB_Top'

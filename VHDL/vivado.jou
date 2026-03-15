@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Jun 17 16:04:02 2025
+# Process ID: 20372
+# Current directory: C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6552 C:\Users\danie\Desktop\Progetto_digitale_versioneDefinitiva\exam_prj_v2\exam_prj_v2.xpr
+# Log file: C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/vivado.log
+# Journal file: C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2\vivado.jou
+# Running On: LAPTOP-IIL0M82Q, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8262 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source TB_Top.tcl
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+create_clock -period 6.000 -waveform {0.000 3.000} [get_ports clk]
+file mkdir C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/constrs_1/new
+close [ open C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/constrs_1/new/clock.xdc w ]
+add_files -fileset constrs_1 C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/constrs_1/new/clock.xdc
+set_property target_constrs_file C:/Users/danie/Desktop/Progetto_digitale_versioneDefinitiva/exam_prj_v2/exam_prj_v2.srcs/constrs_1/new/clock.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+launch_simulation -mode post-implementation -type timing
+source TB_Top.tcl
+close_sim
+close_sim

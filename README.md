@@ -1,4 +1,4 @@
-\# Progettazione di un Sistema Digitale per la Convoluzione d'Immagine.
+\ Progettazione di un Sistema Digitale per la Convoluzione d'Immagine.
 
 &#x20;Si progetta un convolutore isotropico per il filtraggio di immagini in scala di grigio (quindi con pixel 8 bit unsigned) di dimensione almeno 32x32. Il convolutore utilizza un kernel 3x3 con coefficienti rappresentati in complemento a 2 su 8 bit.
 
@@ -8,7 +8,7 @@
 
 
 
-Il progetto si occupa dello sviluppo di un'architettura hardware dedicata all'esecuzione dell'operazione di \*\*convoluzione 2D\*\* su immagini in scala di grigio (32x32 pixel). Il sistema è stato progettato per ottimizzare il throughput e gestire il flusso di dati in tempo reale attraverso una struttura a pipeline.
+Il progetto si occupa dello sviluppo di un'architettura hardware dedicata all'esecuzione dell'operazione di convoluzione su immagini in scala di grigio (32x32 pixel). Il sistema è stato progettato per ottimizzare il throughput e gestire il flusso di dati in tempo reale attraverso una struttura a pipeline.
 
 
 
@@ -18,13 +18,13 @@ Il progetto si occupa dello sviluppo di un'architettura hardware dedicata all'es
 
 Il design è suddiviso in diversi blocchi funzionali critici, implementati in VHDL:
 
-\* \*\*Buffer Line:\*\* Gestisce lo sliding window necessario per la convoluzione senza rileggere i dati dalla memoria.
+Buffer Line: Gestisce lo sliding window necessario per la convoluzione senza rileggere i dati dalla memoria.
 
-\* \*\*Moltiplicatore di Booth:\*\* Implementato per ottimizzare l'operazione di moltiplicazione tra i coefficienti del kernel e i pixel.
+Moltiplicatore di Booth: Implementato per ottimizzare l'operazione di moltiplicazione tra i coefficienti del kernel e i pixel.
 
-\* \*\*Adder Tree:\*\* Una struttura ad albero di sommatori per calcolare le somme parziali in modo efficiente.
+Adder Tree: Una struttura ad albero di sommatori per calcolare le somme parziali in modo efficiente.
 
-\* \*\*Finite State Machine (FSM):\*\* Un'unità di controllo che coordina il flusso dei dati, i segnali di validità (Ready/Valid) e i contatori di scansione dell'immagine.
+Finite State Machine (FSM): Un'unità di controllo che coordina il flusso dei dati, i segnali di validità (Ready/Valid) e i contatori di scansione dell'immagine.
 
 
 
@@ -34,17 +34,17 @@ Il design è suddiviso in diversi blocchi funzionali critici, implementati in VH
 
 Il workflow ha previsto un confronto rigoroso tra l'implementazione hardware e il modello software:
 
-1\.  \*\*Modello MATLAB:\*\* Utilizzato per generare i vettori di test e come riferimento "Golden Model".
+1\. Modello MATLAB: Utilizzato per generare i vettori di test e come riferimento "Golden Model".
 
-2\.  \*\*Simulazione Vivado:\*\* Testbench behavioral per verificare la correttezza logica dell'architettura.
+2\. Simulazione Vivado: Testbench behavioral per verificare la correttezza logica dell'architettura.
 
-3\.  \*\*Analisi Post-Implementazione:\*\* Valutazione delle performance in termini di:
+3\. Analisi Post-Implementazione: Valutazione delle performance in termini di:
 
-&#x20;   \* \*\*Potenza:\*\* Analisi dei consumi statici e dinamici.
+&#x20;  Potenza: Analisi dei consumi statici e dinamici.
 
-&#x20;   \* \*\*Frequenza:\*\* Ottimizzazione del percorso critico (Critical Path) per massimizzare la velocità di clock.
+&#x20;  Frequenza: Ottimizzazione del percorso critico (Critical Path) per massimizzare la velocità di clock.
 
-&#x20;   \* \*\*PSNR/SNR:\*\* Calcolo del rapporto segnale-rumore tra l'output di MATLAB e quello di Vivado per garantire la fedeltà del dato.
+&#x20;  PSNR/SNR: Calcolo del rapporto segnale-rumore tra l'output di MATLAB e quello di Vivado per garantire la fedeltà del dato.
 
 
 
@@ -52,11 +52,11 @@ Il workflow ha previsto un confronto rigoroso tra l'implementazione hardware e i
 
 
 
-\* `/VHDL/`: Codice sorgente dei moduli (Buffer, Booth, Adder Tree, FSM).
+\* `VHDL`: Codice sorgente dei moduli (Buffer, Booth, Adder Tree, FSM).
 
-\* `/MATLAB/`: Script per la verifica dei risultati.
+\* `MATLAB`: Script per la verifica dei risultati.
 
-\* `/Docs/`: Relazione tecnica dettagliata.
+\* `docs`: Relazione tecnica dettagliata.
 
 
 

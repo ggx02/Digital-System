@@ -1,0 +1,2 @@
+Time resolution is 1 ps
+WARNING: "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 151: Timing violation in scope /TB_Top/uut/Conv/Multi_Lateral/RB_reg[1]/TChk151_5070 at time 110285 ps $setuphold (posedge C,negedge R,(0:0:0),(0:0:0),notifier,rst_clk_enable_p,rst_clk_enable_p,C_dly,R_dly) 
