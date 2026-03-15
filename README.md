@@ -50,11 +50,11 @@ Finite State Machine (FSM): Un'unità di controllo che coordina il flusso dei da
 
 
 
-\ `VHDL`: Codice sorgente dei moduli (Buffer, Booth, Adder Tree, FSM).
+ `VHDL`: Codice sorgente dei moduli (Buffer, Booth, Adder Tree, FSM).
 
-\ `MATLAB`: Script per la verifica dei risultati.
+ `MATLAB`: Script per la verifica dei risultati.
 
-\ `docs`: Relazione tecnica dettagliata.
+ `docs`: Relazione tecnica dettagliata.
 
 
 
