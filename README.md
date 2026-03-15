@@ -1,4 +1,4 @@
-\ Progettazione di un Sistema Digitale per la Convoluzione d'Immagine.
+Progettazione di un Sistema Digitale per la Convoluzione d'Immagine.
 
 &#x20;Si progetta un convolutore isotropico per il filtraggio di immagini in scala di grigio (quindi con pixel 8 bit unsigned) di dimensione almeno 32x32. Il convolutore utilizza un kernel 3x3 con coefficienti rappresentati in complemento a 2 su 8 bit.
 
@@ -32,11 +32,9 @@ Finite State Machine (FSM): Un'unità di controllo che coordina il flusso dei da
 
 
 
-Il workflow ha previsto un confronto rigoroso tra l'implementazione hardware e il modello software:
+1\. Modello MATLAB: Utilizzato per generare i vettori di test e come riferimento.
 
-1\. Modello MATLAB: Utilizzato per generare i vettori di test e come riferimento "Golden Model".
-
-2\. Simulazione Vivado: Testbench behavioral per verificare la correttezza logica dell'architettura.
+2\. Simulazione Vivado: Testbench per verificare la correttezza logica dell'architettura.
 
 3\. Analisi Post-Implementazione: Valutazione delle performance in termini di:
 
