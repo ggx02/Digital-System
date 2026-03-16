@@ -1,14 +1,8 @@
-SISTEMA DIGITALE PER LA CONVOLUZIONE D'IMMAGINE.
+#### &#x20;📌 Descrizione del Progetto
 
 &#x20;Si progetta un convolutore isotropico per il filtraggio di immagini in scala di grigio (con pixel 8 bit unsigned) di dimensione almeno 32x32. Il convolutore utilizza un kernel 3x3 con coefficienti rappresentati in complemento a 2 su 8 bit.
 
-
-
-#### &#x20;📌 Panoramica del Progetto
-
-
-
-Il progetto si occupa dello sviluppo di un'architettura hardware dedicata all'esecuzione dell'operazione di convoluzione su immagini in scala di grigio (32x32 pixel). Il sistema è stato progettato per ottimizzare il throughput e gestire il flusso di dati in tempo reale attraverso una struttura a pipeline.
+Il progetto si occupa dello sviluppo di un'architettura dedicata all'esecuzione dell'operazione di convoluzione su immagini in scala di grigio (32x32 pixel). Il sistema è stato progettato per ottimizzare il throughput e gestire il flusso di dati in tempo reale attraverso una struttura a pipeline.
 
 
 
